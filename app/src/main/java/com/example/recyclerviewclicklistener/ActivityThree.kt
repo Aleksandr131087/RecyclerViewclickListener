@@ -22,7 +22,6 @@ class ActivityThree : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_three)
 
-        // Инициализация элементов интерфейса
         toolbar = findViewById(R.id.toolbar2)
         setSupportActionBar(toolbar)
         toolbar.setNavigationOnClickListener {
